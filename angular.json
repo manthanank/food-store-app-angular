@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -91,8 +92,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "food-store-app-angular:build:production",
+            "firebaseProject": "food-store-app-angular",
+            "firebaseHostingSite": "food-store-app-angular"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "0dcba326-ed11-4a97-a3d4-6311e85834c8"
   }
 }

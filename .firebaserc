@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "food-store-app-angular": {
+      "hosting": {
+        "food-store-app-angular": [
+          "food-store-app-angular"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "food-store-app-angular"
+  }
+}
