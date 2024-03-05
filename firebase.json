@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/food-store-app-angular",
+    "public": "dist/ng-complete-guide-update",
     "ignore": [
       "firebase.json",
       "**/.*",
